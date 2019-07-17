@@ -1,3 +1,4 @@
+<!-- 轮播插件 -->
 <template>
   <div class="wrapper">
     <swiper :options="swiperOption">
