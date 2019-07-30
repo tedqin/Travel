@@ -44,8 +44,7 @@ npm run build
 * 异步组件加载：按需加载组件
 
 ## 展示
-![](https://i.imgur.com/JSqMYbF.png){:height="100px" width="400px"}
 
-![](https://i.imgur.com/0I3PgUd.png){:height="100px" width="400px"}
-
-![](https://i.imgur.com/XuH2dla.png =20x30)
+<img src="https://i.imgur.com/JSqMYbF.png" width="40%">
+<img src="https://i.imgur.com/0I3PgUd.png" width="40%">
+<img src="https://i.imgur.com/XuH2dla.png" width="40%">
