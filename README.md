@@ -1,34 +1,51 @@
 # travel
 
-> A Vue.js project
+> A mobile web project on Vue.js  
 
-## Build Setup
+## 仿某旅游网站的移动端webapp页面
+## 启动
 
 ``` bash
-# install dependencies
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+# 本地端口启动
+npm run start
 
-# build for production with minification
+# 打包
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
 ## 组件
-home header头部 icon原型图标区域 recommend推荐 swiper图片轮播 weekend周末去哪
-city header头部 alphabet:右侧城市首字母下拉列表 list:城市列表 search：搜索
-detail
-## 响应式
-## webpack
-## axios ajaxqingqiu 
-## swiper 轮播图
-## betterscroll
-## vuex 进行home和city页面的数据交互，在city页面选择城市，home页面的城市会改变，并且使用router.push自动跳转到home
-## localstorage  刷新的时候选择的城市不变
-## keepalive 优化问题：切换页面会发生多次ajax请求
+* home 
+	* Header 头部 
+	* Icon 原型图标区域 
+	* Recommend 推荐 
+	* Swiper 图片轮播 
+	* Weekend 周末推荐
+* city 
+	* Header 头部 
+	* Alphabet 右侧城市首字母下拉列表 
+	* List 城市列表 
+	* Search 搜索
+* detail 
+	* Header 头部 
+	* Banner 主页面 
+	* List 图片详情页的轮播
+
+## 用到的功能和插件
+* webpack
+* axios 发送ajax请求
+* vue-awesome-swiper 轮播图插件
+* betterscroll 滚动插件，贴近真实的移动端手指滑动
+* vuex 进行home和city页面的数据交互，在city页面选择城市，home页面的城市会改变，并且使用router.push自动跳转到home页面
+* localstorage 自动缓存，刷新页面的时候已经选择的城市不发生改变
+* keepalive 优化问题：防止切换页面会发生多次ajax请求
+* 异步组件加载：按需加载组件
+
+## 展示
+![](https://i.imgur.com/JSqMYbF.png){:height="100px" width="400px"}
+
+![](https://i.imgur.com/0I3PgUd.png){:height="100px" width="400px"}
+
+![](https://i.imgur.com/XuH2dla.png =20x30)
