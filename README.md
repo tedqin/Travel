@@ -26,6 +26,7 @@ city header头部 alphabet:右侧城市首字母下拉列表 list:城市列表 s
 detail
 ## 响应式
 ## webpack
+## axios ajaxqingqiu 
 ## swiper 轮播图
 ## betterscroll
 ## vuex 进行home和city页面的数据交互，在city页面选择城市，home页面的城市会改变，并且使用router.push自动跳转到home
