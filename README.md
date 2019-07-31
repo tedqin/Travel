@@ -2,6 +2,8 @@
 
 > A mobile web project on Vue.js  
 
+## demo地址：https://tedqin.github.io/Travel/
+
 ## 仿某旅游网站的移动端webapp页面
 ## 启动
 
