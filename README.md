@@ -44,9 +44,3 @@ npm run build
 * localstorage 自动缓存，刷新页面的时候已经选择的城市不发生改变
 * keepalive 优化问题：防止切换页面会发生多次ajax请求
 * 异步组件加载：按需加载组件
-
-## 展示
-
-<img src="https://i.imgur.com/JSqMYbF.png" width="40%">
-<img src="https://i.imgur.com/0I3PgUd.png" width="40%">
-<img src="https://i.imgur.com/XuH2dla.png" width="40%">
